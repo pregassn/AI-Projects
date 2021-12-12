@@ -1,0 +1,145 @@
+###########################################################
+# PART 1: Result with a KNN of 3 and euclidean distance   #
+###########################################################
+
+Acuracy of k=3, dist=2, non weighted dist:, 77.34375
+Acuracy of k=3, dist=2, weighted dist    :, 75.0
+
+
+
+###########################################################
+# PART 2: Investigating kNN variants and hyper-parameters #
+###########################################################
+
+#################### Minkowski distance: , 0.25
+Acuracy of k=, 3, dist=, 0.25, non weighted dist:, 79.6875
+Acuracy of k=, 3, dist=, 0.25, weighted dist    :, 77.34375
+Acuracy of k=, 4, dist=, 0.25, non weighted dist:, 78.125
+Acuracy of k=, 4, dist=, 0.25, weighted dist    :, 77.34375
+Acuracy of k=, 5, dist=, 0.25, non weighted dist:, 78.90625
+Acuracy of k=, 5, dist=, 0.25, weighted dist    :, 78.90625
+Acuracy of k=, 6, dist=, 0.25, non weighted dist:, 77.34375
+Acuracy of k=, 6, dist=, 0.25, weighted dist    :, 78.90625
+Acuracy of k=, 11, dist=, 0.25, non weighted dist:, 78.90625
+Acuracy of k=, 11, dist=, 0.25, weighted dist    :, 80.46875
+Acuracy of k=, 12, dist=, 0.25, non weighted dist:, 77.34375
+Acuracy of k=, 12, dist=, 0.25, weighted dist    :, 79.6875
+Acuracy of k=, 33, dist=, 0.25, non weighted dist:, 74.21875
+Acuracy of k=, 33, dist=, 0.25, weighted dist    :, 79.6875
+Acuracy of k=, 34, dist=, 0.25, non weighted dist:, 74.21875
+Acuracy of k=, 34, dist=, 0.25, weighted dist    :, 79.6875
+Acuracy of k=, 63, dist=, 0.25, non weighted dist:, 75.78125
+Acuracy of k=, 63, dist=, 0.25, weighted dist    :, 79.6875
+Acuracy of k=, 64, dist=, 0.25, non weighted dist:, 75.78125
+Acuracy of k=, 64, dist=, 0.25, weighted dist    :, 79.6875
+
+#################### Minkowski distance: , 0.5
+Acuracy of k=, 3, dist=, 0.5, non weighted dist:, 82.03125
+Acuracy of k=, 3, dist=, 0.5, weighted dist    :, 78.125
+Acuracy of k=, 4, dist=, 0.5, non weighted dist:, 76.5625
+Acuracy of k=, 4, dist=, 0.5, weighted dist    :, 78.125
+Acuracy of k=, 5, dist=, 0.5, non weighted dist:, 78.90625
+Acuracy of k=, 5, dist=, 0.5, weighted dist    :, 77.34375
+Acuracy of k=, 6, dist=, 0.5, non weighted dist:, 75.78125
+Acuracy of k=, 6, dist=, 0.5, weighted dist    :, 78.90625
+Acuracy of k=, 11, dist=, 0.5, non weighted dist:, 78.125
+Acuracy of k=, 11, dist=, 0.5, weighted dist    :, 79.6875
+Acuracy of k=, 12, dist=, 0.5, non weighted dist:, 76.5625
+Acuracy of k=, 12, dist=, 0.5, weighted dist    :, 78.125
+Acuracy of k=, 33, dist=, 0.5, non weighted dist:, 72.65625
+Acuracy of k=, 33, dist=, 0.5, weighted dist    :, 79.6875
+Acuracy of k=, 34, dist=, 0.5, non weighted dist:, 73.4375
+Acuracy of k=, 34, dist=, 0.5, weighted dist    :, 79.6875
+Acuracy of k=, 63, dist=, 0.5, non weighted dist:, 76.5625
+Acuracy of k=, 63, dist=, 0.5, weighted dist    :, 78.90625
+Acuracy of k=, 64, dist=, 0.5, non weighted dist:, 75.78125
+Acuracy of k=, 64, dist=, 0.5, weighted dist    :, 78.90625
+
+#################### Minkowski distance: , 1
+Acuracy of k=, 3, dist=, 1, non weighted dist:, 78.125
+Acuracy of k=, 3, dist=, 1, weighted dist    :, 75.78125
+Acuracy of k=, 4, dist=, 1, non weighted dist:, 75.0
+Acuracy of k=, 4, dist=, 1, weighted dist    :, 75.78125
+Acuracy of k=, 5, dist=, 1, non weighted dist:, 79.6875
+Acuracy of k=, 5, dist=, 1, weighted dist    :, 77.34375
+Acuracy of k=, 6, dist=, 1, non weighted dist:, 77.34375
+Acuracy of k=, 6, dist=, 1, weighted dist    :, 76.5625
+Acuracy of k=, 11, dist=, 1, non weighted dist:, 76.5625
+Acuracy of k=, 11, dist=, 1, weighted dist    :, 78.125
+Acuracy of k=, 12, dist=, 1, non weighted dist:, 75.0
+Acuracy of k=, 12, dist=, 1, weighted dist    :, 76.5625
+Acuracy of k=, 33, dist=, 1, non weighted dist:, 73.4375
+Acuracy of k=, 33, dist=, 1, weighted dist    :, 75.78125
+Acuracy of k=, 34, dist=, 1, non weighted dist:, 73.4375
+Acuracy of k=, 34, dist=, 1, weighted dist    :, 76.5625
+Acuracy of k=, 63, dist=, 1, non weighted dist:, 75.78125
+Acuracy of k=, 63, dist=, 1, weighted dist    :, 78.125
+Acuracy of k=, 64, dist=, 1, non weighted dist:, 74.21875
+Acuracy of k=, 64, dist=, 1, weighted dist    :, 78.125
+
+#################### Minkowski distance: , 2
+Acuracy of k=, 3, dist=, 2, non weighted dist:, 78.125
+Acuracy of k=, 3, dist=, 2, weighted dist    :, 76.5625
+Acuracy of k=, 4, dist=, 2, non weighted dist:, 75.0
+Acuracy of k=, 4, dist=, 2, weighted dist    :, 77.34375
+Acuracy of k=, 5, dist=, 2, non weighted dist:, 78.125
+Acuracy of k=, 5, dist=, 2, weighted dist    :, 78.125
+Acuracy of k=, 6, dist=, 2, non weighted dist:, 75.78125
+Acuracy of k=, 6, dist=, 2, weighted dist    :, 76.5625
+Acuracy of k=, 11, dist=, 2, non weighted dist:, 76.5625
+Acuracy of k=, 11, dist=, 2, weighted dist    :, 78.125
+Acuracy of k=, 12, dist=, 2, non weighted dist:, 73.4375
+Acuracy of k=, 12, dist=, 2, weighted dist    :, 76.5625
+Acuracy of k=, 33, dist=, 2, non weighted dist:, 73.4375
+Acuracy of k=, 33, dist=, 2, weighted dist    :, 75.0
+Acuracy of k=, 34, dist=, 2, non weighted dist:, 73.4375
+Acuracy of k=, 34, dist=, 2, weighted dist    :, 75.78125
+Acuracy of k=, 63, dist=, 2, non weighted dist:, 75.0
+Acuracy of k=, 63, dist=, 2, weighted dist    :, 76.5625
+Acuracy of k=, 64, dist=, 2, non weighted dist:, 75.0
+Acuracy of k=, 64, dist=, 2, weighted dist    :, 76.5625
+
+#################### Minkowski distance: , 4
+Acuracy of k=, 3, dist=, 4, non weighted dist:, 77.34375
+Acuracy of k=, 3, dist=, 4, weighted dist    :, 75.0
+Acuracy of k=, 4, dist=, 4, non weighted dist:, 73.4375
+Acuracy of k=, 4, dist=, 4, weighted dist    :, 75.78125
+Acuracy of k=, 5, dist=, 4, non weighted dist:, 78.125
+Acuracy of k=, 5, dist=, 4, weighted dist    :, 76.5625
+Acuracy of k=, 6, dist=, 4, non weighted dist:, 75.0
+Acuracy of k=, 6, dist=, 4, weighted dist    :, 75.78125
+Acuracy of k=, 11, dist=, 4, non weighted dist:, 75.78125
+Acuracy of k=, 11, dist=, 4, weighted dist    :, 77.34375
+Acuracy of k=, 12, dist=, 4, non weighted dist:, 74.21875
+Acuracy of k=, 12, dist=, 4, weighted dist    :, 77.34375
+Acuracy of k=, 33, dist=, 4, non weighted dist:, 74.21875
+Acuracy of k=, 33, dist=, 4, weighted dist    :, 75.0
+Acuracy of k=, 34, dist=, 4, non weighted dist:, 74.21875
+Acuracy of k=, 34, dist=, 4, weighted dist    :, 75.0
+Acuracy of k=, 63, dist=, 4, non weighted dist:, 75.78125
+Acuracy of k=, 63, dist=, 4, weighted dist    :, 76.5625
+Acuracy of k=, 64, dist=, 4, non weighted dist:, 75.78125
+Acuracy of k=, 64, dist=, 4, weighted dist    :, 75.78125
+
+#################### Minkowski distance: , 8
+Acuracy of k=, 3, dist=, 8, non weighted dist:, 76.5625
+Acuracy of k=, 3, dist=, 8, weighted dist    :, 74.21875
+Acuracy of k=, 4, dist=, 8, non weighted dist:, 71.875
+Acuracy of k=, 4, dist=, 8, weighted dist    :, 75.78125
+Acuracy of k=, 5, dist=, 8, non weighted dist:, 75.78125
+Acuracy of k=, 5, dist=, 8, weighted dist    :, 75.0
+Acuracy of k=, 6, dist=, 8, non weighted dist:, 73.4375
+Acuracy of k=, 6, dist=, 8, weighted dist    :, 75.78125
+Acuracy of k=, 11, dist=, 8, non weighted dist:, 76.5625
+Acuracy of k=, 11, dist=, 8, weighted dist    :, 77.34375
+Acuracy of k=, 12, dist=, 8, non weighted dist:, 73.4375
+Acuracy of k=, 12, dist=, 8, weighted dist    :, 77.34375
+Acuracy of k=, 33, dist=, 8, non weighted dist:, 74.21875
+Acuracy of k=, 33, dist=, 8, weighted dist    :, 74.21875
+Acuracy of k=, 34, dist=, 8, non weighted dist:, 73.4375
+Acuracy of k=, 34, dist=, 8, weighted dist    :, 75.0
+Acuracy of k=, 63, dist=, 8, non weighted dist:, 75.0
+Acuracy of k=, 63, dist=, 8, weighted dist    :, 75.78125
+Acuracy of k=, 64, dist=, 8, non weighted dist:, 75.0
+Acuracy of k=, 64, dist=, 8, weighted dist    :, 75.78125
+

@@ -1,0 +1,157 @@
+###########################################################
+# PART 3: Devoloping kNN for regression problems          #
+###########################################################
+
+#################### Minkowski distance: , 1
+### Parameter n: , 1
+RSquare of k=, 3,  Mdist=, 1,  weighted dist    :, 0.64258468895799359
+RSquare of k=, 5,  Mdist=, 1,  weighted dist    :, 0.65308255500955825
+RSquare of k=, 11,  Mdist=, 1,  weighted dist    :, 0.61650344952354619
+RSquare of k=, 21,  Mdist=, 1,  weighted dist    :, 0.54630691501969397
+RSquare of k=, 51,  Mdist=, 1,  weighted dist    :, 0.3668760151501872
+RSquare of k=, 75,  Mdist=, 1,  weighted dist    :, 0.24353314415210248
+RSquare of k=, 100,  Mdist=, 1,  weighted dist    :, 0.13680260286012369
+RSquare of k=, 200,  Mdist=, 1,  weighted dist    :, -0.24205214640806116
+
+### Parameter n: , 2
+RSquare of k=, 3,  Mdist=, 1,  weighted dist    :, 0.64564787066494467
+RSquare of k=, 5,  Mdist=, 1,  weighted dist    :, 0.65824838287693233
+RSquare of k=, 11,  Mdist=, 1,  weighted dist    :, 0.6269678504686782
+RSquare of k=, 21,  Mdist=, 1,  weighted dist    :, 0.56148590601145054
+RSquare of k=, 51,  Mdist=, 1,  weighted dist    :, 0.39338086021893004
+RSquare of k=, 75,  Mdist=, 1,  weighted dist    :, 0.27893733473191562
+RSquare of k=, 100,  Mdist=, 1,  weighted dist    :, 0.17963535737134162
+RSquare of k=, 200,  Mdist=, 1,  weighted dist    :, -0.1690163799928377
+
+### Parameter n: , 4
+RSquare of k=, 3,  Mdist=, 1,  weighted dist    :, 0.6482653666694993
+RSquare of k=, 5,  Mdist=, 1,  weighted dist    :, 0.66520925694189514
+RSquare of k=, 11,  Mdist=, 1,  weighted dist    :, 0.64606974381997562
+RSquare of k=, 21,  Mdist=, 1,  weighted dist    :, 0.59339278378866012
+RSquare of k=, 51,  Mdist=, 1,  weighted dist    :, 0.45431481142638719
+RSquare of k=, 75,  Mdist=, 1,  weighted dist    :, 0.36113922610585991
+RSquare of k=, 100,  Mdist=, 1,  weighted dist    :, 0.27991237314308104
+RSquare of k=, 200,  Mdist=, 1,  weighted dist    :, 0.0013363369526442348
+
+### Parameter n: , 8
+RSquare of k=, 3,  Mdist=, 1,  weighted dist    :, 0.6429525638709932
+RSquare of k=, 5,  Mdist=, 1,  weighted dist    :, 0.66435652755368835
+RSquare of k=, 11,  Mdist=, 1,  weighted dist    :, 0.66492484082657466
+RSquare of k=, 21,  Mdist=, 1,  weighted dist    :, 0.64086725525829236
+RSquare of k=, 51,  Mdist=, 1,  weighted dist    :, 0.57231449068779017
+RSquare of k=, 75,  Mdist=, 1,  weighted dist    :, 0.52887919068370315
+RSquare of k=, 100,  Mdist=, 1,  weighted dist    :, 0.49175766379599983
+RSquare of k=, 200,  Mdist=, 1,  weighted dist    :, 0.37377900629669147
+
+### Parameter n: , 16
+RSquare of k=, 3,  Mdist=, 1,  weighted dist    :, 0.62194376077015534
+RSquare of k=, 5,  Mdist=, 1,  weighted dist    :, 0.63878875818318281
+RSquare of k=, 11,  Mdist=, 1,  weighted dist    :, 0.64750543697225171
+RSquare of k=, 21,  Mdist=, 1,  weighted dist    :, 0.64546318419246163
+RSquare of k=, 51,  Mdist=, 1,  weighted dist    :, 0.63690434327210876
+RSquare of k=, 75,  Mdist=, 1,  weighted dist    :, 0.63264506502702644
+RSquare of k=, 100,  Mdist=, 1,  weighted dist    :, 0.62961781628210511
+RSquare of k=, 200,  Mdist=, 1,  weighted dist    :, 0.62236099793852218
+
+#################### Minkowski distance: , 2
+### Parameter n: , 1
+RSquare of k=, 3,  Mdist=, 2,  weighted dist    :, 0.71525240372655141
+RSquare of k=, 5,  Mdist=, 2,  weighted dist    :, 0.72317554562406472
+RSquare of k=, 11,  Mdist=, 2,  weighted dist    :, 0.69481653796394638
+RSquare of k=, 21,  Mdist=, 2,  weighted dist    :, 0.62903280232714076
+RSquare of k=, 51,  Mdist=, 2,  weighted dist    :, 0.48602024043156922
+RSquare of k=, 75,  Mdist=, 2,  weighted dist    :, 0.38504174944242653
+RSquare of k=, 100,  Mdist=, 2,  weighted dist    :, 0.29810638216725016
+RSquare of k=, 200,  Mdist=, 2,  weighted dist    :, -0.014394882272303011
+
+### Parameter n: , 2
+RSquare of k=, 3,  Mdist=, 2,  weighted dist    :, 0.71741828936013219
+RSquare of k=, 5,  Mdist=, 2,  weighted dist    :, 0.7271613773018728
+RSquare of k=, 11,  Mdist=, 2,  weighted dist    :, 0.70287517704565317
+RSquare of k=, 21,  Mdist=, 2,  weighted dist    :, 0.64199654752842461
+RSquare of k=, 51,  Mdist=, 2,  weighted dist    :, 0.50761810599837465
+RSquare of k=, 75,  Mdist=, 2,  weighted dist    :, 0.41357812263230276
+RSquare of k=, 100,  Mdist=, 2,  weighted dist    :, 0.33214986155633941
+RSquare of k=, 200,  Mdist=, 2,  weighted dist    :, 0.043556898068985994
+
+### Parameter n: , 4
+RSquare of k=, 3,  Mdist=, 2,  weighted dist    :, 0.71900595150525293
+RSquare of k=, 5,  Mdist=, 2,  weighted dist    :, 0.73230239803009167
+RSquare of k=, 11,  Mdist=, 2,  weighted dist    :, 0.71720187282381609
+RSquare of k=, 21,  Mdist=, 2,  weighted dist    :, 0.66876088568702552
+RSquare of k=, 51,  Mdist=, 2,  weighted dist    :, 0.55700965306078709
+RSquare of k=, 75,  Mdist=, 2,  weighted dist    :, 0.47967768548266709
+RSquare of k=, 100,  Mdist=, 2,  weighted dist    :, 0.41190228886513336
+RSquare of k=, 200,  Mdist=, 2,  weighted dist    :, 0.17884882858658069
+
+### Parameter n: , 8
+RSquare of k=, 3,  Mdist=, 2,  weighted dist    :, 0.7141027970618814
+RSquare of k=, 5,  Mdist=, 2,  weighted dist    :, 0.73124958503378878
+RSquare of k=, 11,  Mdist=, 2,  weighted dist    :, 0.73127235226972143
+RSquare of k=, 21,  Mdist=, 2,  weighted dist    :, 0.70852722025212012
+RSquare of k=, 51,  Mdist=, 2,  weighted dist    :, 0.65157630849828152
+RSquare of k=, 75,  Mdist=, 2,  weighted dist    :, 0.61419457357364027
+RSquare of k=, 100,  Mdist=, 2,  weighted dist    :, 0.58125592744041299
+RSquare of k=, 200,  Mdist=, 2,  weighted dist    :, 0.47757807924766738
+
+### Parameter n: , 16
+RSquare of k=, 3,  Mdist=, 2,  weighted dist    :, 0.69375869733381224
+RSquare of k=, 5,  Mdist=, 2,  weighted dist    :, 0.70744948003036334
+RSquare of k=, 11,  Mdist=, 2,  weighted dist    :, 0.7142238996446193
+RSquare of k=, 21,  Mdist=, 2,  weighted dist    :, 0.71200366366413992
+RSquare of k=, 51,  Mdist=, 2,  weighted dist    :, 0.70458424131918918
+RSquare of k=, 75,  Mdist=, 2,  weighted dist    :, 0.70077472119531481
+RSquare of k=, 100,  Mdist=, 2,  weighted dist    :, 0.69770494024382512
+RSquare of k=, 200,  Mdist=, 2,  weighted dist    :, 0.69043368776117808
+
+#################### Minkowski distance: , 4
+### Parameter n: , 1
+RSquare of k=, 3,  Mdist=, 4,  weighted dist    :, 0.676011527864674
+RSquare of k=, 5,  Mdist=, 4,  weighted dist    :, 0.68888036865228708
+RSquare of k=, 11,  Mdist=, 4,  weighted dist    :, 0.65780066768141143
+RSquare of k=, 21,  Mdist=, 4,  weighted dist    :, 0.59643956643181628
+RSquare of k=, 51,  Mdist=, 4,  weighted dist    :, 0.42049455520248258
+RSquare of k=, 75,  Mdist=, 4,  weighted dist    :, 0.31506812899386683
+RSquare of k=, 100,  Mdist=, 4,  weighted dist    :, 0.21225353511082512
+RSquare of k=, 200,  Mdist=, 4,  weighted dist    :, -0.12855549207056138
+
+### Parameter n: , 2
+RSquare of k=, 3,  Mdist=, 4,  weighted dist    :, 0.67869649855180592
+RSquare of k=, 5,  Mdist=, 4,  weighted dist    :, 0.69335929286801035
+RSquare of k=, 11,  Mdist=, 4,  weighted dist    :, 0.66735188849480731
+RSquare of k=, 21,  Mdist=, 4,  weighted dist    :, 0.61054061215572464
+RSquare of k=, 51,  Mdist=, 4,  weighted dist    :, 0.44655148732162575
+RSquare of k=, 75,  Mdist=, 4,  weighted dist    :, 0.34777313518191932
+RSquare of k=, 100,  Mdist=, 4,  weighted dist    :, 0.25213552211577783
+RSquare of k=, 200,  Mdist=, 4,  weighted dist    :, -0.062514612308051554
+
+### Parameter n: , 4
+RSquare of k=, 3,  Mdist=, 4,  weighted dist    :, 0.6813426748007273
+RSquare of k=, 5,  Mdist=, 4,  weighted dist    :, 0.69949660227810484
+RSquare of k=, 11,  Mdist=, 4,  weighted dist    :, 0.68477492668556672
+RSquare of k=, 21,  Mdist=, 4,  weighted dist    :, 0.64000921891397655
+RSquare of k=, 51,  Mdist=, 4,  weighted dist    :, 0.50576552645147477
+RSquare of k=, 75,  Mdist=, 4,  weighted dist    :, 0.42379978708735533
+RSquare of k=, 100,  Mdist=, 4,  weighted dist    :, 0.34544991221734722
+RSquare of k=, 200,  Mdist=, 4,  weighted dist    :, 0.092283692540589435
+
+### Parameter n: , 8
+RSquare of k=, 3,  Mdist=, 4,  weighted dist    :, 0.67813106795066735
+RSquare of k=, 5,  Mdist=, 4,  weighted dist    :, 0.69992536122784399
+RSquare of k=, 11,  Mdist=, 4,  weighted dist    :, 0.70296738192685715
+RSquare of k=, 21,  Mdist=, 4,  weighted dist    :, 0.68406196453830737
+RSquare of k=, 51,  Mdist=, 4,  weighted dist    :, 0.61840720826214257
+RSquare of k=, 75,  Mdist=, 4,  weighted dist    :, 0.57888860725298819
+RSquare of k=, 100,  Mdist=, 4,  weighted dist    :, 0.54248664096381738
+RSquare of k=, 200,  Mdist=, 4,  weighted dist    :, 0.43340115416792357
+
+### Parameter n: , 16
+RSquare of k=, 3,  Mdist=, 4,  weighted dist    :, 0.66062430999855559
+RSquare of k=, 5,  Mdist=, 4,  weighted dist    :, 0.67863749353222269
+RSquare of k=, 11,  Mdist=, 4,  weighted dist    :, 0.68856887127437472
+RSquare of k=, 21,  Mdist=, 4,  weighted dist    :, 0.68840328136180184
+RSquare of k=, 51,  Mdist=, 4,  weighted dist    :, 0.68033736286523294
+RSquare of k=, 75,  Mdist=, 4,  weighted dist    :, 0.67644006259237177
+RSquare of k=, 100,  Mdist=, 4,  weighted dist    :, 0.6733343108074259
+RSquare of k=, 200,  Mdist=, 4,  weighted dist    :, 0.66641592543693462
+
