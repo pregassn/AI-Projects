@@ -1,0 +1,9 @@
+1, It is not possible that he put an elephant into the fridge because  elephants don't belong in the fridge.
+1, It is not possible that he put an elephant into the fridge because  elephants are too big to fit in a fridge.
+1, It is not possible that he put an elephant into the fridge because  elephants are too big to fit in the fridge
+2, It is not possible that my sister eats a stone after breakfast every day because  stone is not a food to eat
+2, It is not possible that my sister eats a stone after breakfast every day because  stones are not edible.
+2, It is not possible that my sister eats a stone after breakfast every day because  stones are too heavy to eat
+3, It is not possible that money can be used for buying stars because  money cannot purchase a star
+3, It is not possible that money can be used for buying stars because  money can't buy stars.
+3, It is not possible that money can be used for buying stars because  $ is not the price of a star.
