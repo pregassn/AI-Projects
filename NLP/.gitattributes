@@ -1,0 +1,2 @@
+ECM[[:space:]]project/europarl/txt/en/all_en.txt filter=lfs diff=lfs merge=lfs -text
+ECM[[:space:]]project/Project1NLP_Model/europarl/txt/en/all_en.txt filter=lfs diff=lfs merge=lfs -text
